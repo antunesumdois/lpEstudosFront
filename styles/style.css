@@ -1,0 +1,93 @@
+/*Style do Body como um todo, max-width limita a expansão do site em 1200px em caso de algum monitor maior, e o margin 0 auto centraliza o body na tela */
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+h1 {
+    font-weight: 200;
+}
+h1:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.5s all;
+}
+li {
+    display: inline-block;
+    margin: 20px;
+}
+a {
+    color: white;
+    font-size: 17px;
+    padding: 4px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.5s all;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+span {
+    color: rgb(132, 14, 201);
+}
+p {
+    font-size: 25px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+p strong {
+    color: rgb(132, 14, 201);
+}
+img {
+    width: 600px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+input[type="submit"]{
+    height: 30px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px 25px 10px;
+
+    
+}
+input {
+    margin-top: 20px;
+    height: 25px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+
+}
